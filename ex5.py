@@ -44,6 +44,7 @@ list2 = random.sample(range(1000), random.randint(1,100))
 print list1
 print list2
 
+#printing it in one line using list compreshension
 print {element for element in list1 and list2 if element in list1 and list2}
 
 
