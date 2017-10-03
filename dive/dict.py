@@ -1,6 +1,10 @@
 d = {"server":"mpilgrim", "database":"master"}
 print d
 
+print "print all the methods associated with dict"
+print dir(d)
+print type(d)
+
 print d["server"]
 print d["database"]
 #print d["mpilgrim"] # error coz of no key present
