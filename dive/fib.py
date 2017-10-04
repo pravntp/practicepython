@@ -1,4 +1,5 @@
 def fib(n):
+    """this method returns sum of n natural numbers"""
     print "n = ",n
     if n > 1 :
         return n * fib(n-1)
